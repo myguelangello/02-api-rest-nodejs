@@ -1,6 +1,7 @@
 # Fastify Node.js Web Server
 
 Este é um servidor web Node.js criado durante meus estudos de Node.js, utilizando o framework [Fastify](https://www.fastify.io/) para construir uma aplicação web rápida e eficiente.
+<br>
 
 ## Tecnologias Utilizadas
 
@@ -14,11 +15,12 @@ Este é um servidor web Node.js criado durante meus estudos de Node.js, utilizan
 
 - **ESLint:** Uma ferramenta de linting para identificar e corrigir problemas no código JavaScript. Mais detalhes em [ESLint](https://eslint.org/).
 
-## Pré-requisitos
-
-Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina antes de prosseguir.
+<br>
 
 ## Configuração do Ambiente e Uso.
+
+### Pré-requisitos
+Certifique-se de ter o [Node.js](https://nodejs.org/) instalado em sua máquina antes de prosseguir.
 
 ### Instalação
 
@@ -67,38 +69,42 @@ O servidor estará disponível em [http://localhost:3333](http://localhost:3333)
 - `npm run knex -- migrate:rollback`: Desfaz a última migração do banco de dados.
 - `npm run lint`: Executa o ESLint para identificar e corrigir problemas no código.
 
+<br>
+
 ## Requisitos Funcionais (RF)
 
 ### 1. Criar Nova Transação
 
-- **Descrição:** O usuário deve ter a capacidade de criar uma nova transação em sua conta.
+- [  ] **Descrição:** O usuário deve ter a capacidade de criar uma nova transação em sua conta.
 
 ### 2. Obter Resumo da Conta
 
-- **Descrição:** O usuário deve ter a capacidade de obter um resumo da sua conta, incluindo informações relevantes sobre saldos, transações recentes, etc.
+- [  ] **Descrição:** O usuário deve ter a capacidade de obter um resumo da sua conta, incluindo informações relevantes sobre saldos, transações recentes, etc.
 
 ### 3. Listar Todas as Transações
 
-- **Descrição:** O usuário deve poder visualizar uma lista contendo todas as transações que ocorreram em sua conta.
+- [  ] **Descrição:** O usuário deve poder visualizar uma lista contendo todas as transações que ocorreram em sua conta.
 
 ### 4. Visualizar Uma Transação Específica
 
-- **Descrição:** O usuário deve poder visualizar uma transação específica.
+- [  ] **Descrição:** O usuário deve poder visualizar uma transação específica.
+
+<br>
 
 ## Regras de Negócio (RN)
 
 ### 1. Tipos de Transação
 
-- **Descrição:** Uma transação pode ser do tipo crédito, que adiciona um valor ao total da conta, ou débito, que subtrai um valor do total.
+- [  ] **Descrição:** Uma transação pode ser do tipo crédito, que adiciona um valor ao total da conta, ou débito, que subtrai um valor do total.
 
 ### 2. Identificação do Usuário
 
-- **Descrição:** O sistema deve ser capaz de identificar o usuário entre as requisições, garantindo que as transações e informações da conta sejam associadas corretamente.
+- [  ] **Descrição:** O sistema deve ser capaz de identificar o usuário entre as requisições, garantindo que as transações e informações da conta sejam associadas corretamente.
 
 ### 3. Visualização de Transações Próprias
 
-- **Descrição:** O usuário só pode visualizar transações que ele mesmo criou.
-
+- [  ] **Descrição:** O usuário só pode visualizar transações que ele mesmo criou.
+<!-- 
 ## Requisitos Não Funcionais (RNF)
 
 ### 1. Desempenho
@@ -120,13 +126,16 @@ O servidor estará disponível em [http://localhost:3333](http://localhost:3333)
 ### 5. Testes Automatizados
 
 - **Descrição:** Implemente testes automatizados para garantir a confiabilidade e estabilidade do sistema ao longo do tempo.
+ -->
+
+<br>
 
 ## Autor
 
 ### Myguel Angello 
-###### [GitHub](https://github.com/myguelangello) | [LinkedIn](https://www.linkedin.com/in/myguelangello/)
+[GitHub](https://github.com/myguelangello) | [LinkedIn](https://www.linkedin.com/in/myguelangello/)
 #### Sistemas e Mídias Digitais - Instituto UFC Virtual.
-#### Universidade Federal do Ceará.
+Universidade Federal do Ceará.
 
 
 ## Contribuição
