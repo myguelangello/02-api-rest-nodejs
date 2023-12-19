@@ -79,7 +79,7 @@ O servidor estará disponível em [http://localhost:3333](http://localhost:3333)
 
 ### 2. Obter Resumo da Conta
 
-- [  ] **Descrição:** O usuário deve ter a capacidade de obter um resumo da sua conta, incluindo informações relevantes sobre saldos, transações recentes, etc.
+- [X] **Descrição:** O usuário deve ter a capacidade de obter um resumo da sua conta.
 
 ### 3. Listar Todas as Transações
 
