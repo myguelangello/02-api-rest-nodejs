@@ -75,7 +75,7 @@ O servidor estará disponível em [http://localhost:3333](http://localhost:3333)
 
 ### 1. Criar Nova Transação
 
-- [  ] **Descrição:** O usuário deve ter a capacidade de criar uma nova transação em sua conta.
+- [X] **Descrição:** O usuário deve ter a capacidade de criar uma nova transação.
 
 ### 2. Obter Resumo da Conta
 
@@ -83,11 +83,11 @@ O servidor estará disponível em [http://localhost:3333](http://localhost:3333)
 
 ### 3. Listar Todas as Transações
 
-- [  ] **Descrição:** O usuário deve poder visualizar uma lista contendo todas as transações que ocorreram em sua conta.
+- [X] **Descrição:** O usuário deve poder visualizar uma lista contendo todas as transações.
 
 ### 4. Visualizar Uma Transação Específica
 
-- [  ] **Descrição:** O usuário deve poder visualizar uma transação específica.
+- [X] **Descrição:** O usuário deve poder visualizar uma transação específica.
 
 <br>
 
@@ -95,7 +95,7 @@ O servidor estará disponível em [http://localhost:3333](http://localhost:3333)
 
 ### 1. Tipos de Transação
 
-- [  ] **Descrição:** Uma transação pode ser do tipo crédito, que adiciona um valor ao total da conta, ou débito, que subtrai um valor do total.
+- [X] **Descrição:** Uma transação pode ser do tipo crédito, que adiciona um valor ao total da conta, ou débito, que subtrai um valor do total.
 
 ### 2. Identificação do Usuário
 
