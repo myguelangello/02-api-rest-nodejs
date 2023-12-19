@@ -6,7 +6,7 @@ const app = fastify()
 
 /* A ordem dos plugins é a ordem que o fastify vai executar cada um */
 app.register(transactionRoutes, {
-  prefix: 'transactions',
+  prefix: 'transactions ',
 })
 
 app
